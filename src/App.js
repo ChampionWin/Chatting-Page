@@ -6,9 +6,9 @@ import {AddMessage} from './containers/AddMessage';
 function App() {
   return (
     <div id="container">
-      <Sidebar />
+      <Sidebar/>
       <section id="main">
-        <MessagesList />
+        <MessagesList/>
         <AddMessage />
       </section>
     </div>
